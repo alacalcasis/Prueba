@@ -7,6 +7,7 @@
 
 #include <iostream>
 #include <string>
+#include <memory>
 using namespace std;
 
 #include "Grafo.h"
@@ -14,6 +15,7 @@ using namespace std;
  * 
  */
 int main(int argc, char** argv) {
+    shared_ptr ptr;
     string nombre_archivo = "grafoMuyPeq.txt";
     string salida;
     Grafo<int> grfInt(nombre_archivo);
