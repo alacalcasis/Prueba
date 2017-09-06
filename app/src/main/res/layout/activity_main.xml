@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
     tools:context="com.pruebas.micalculadora.MainActivity">
 
     <LinearLayout
@@ -26,9 +27,36 @@
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
         android:columnCount="4"
         android:rowCount="5">
+
+        <Button
+            android:id="@+id/mcm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="botonClicado"
+            android:text="MCM" />
+
+        <Button
+            android:id="@+id/primo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="botonClicado"
+            android:text="PRIMO" />
+
+        <Button
+            android:id="@+id/exponenciacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="botonClicado"
+            android:text="EXP" />
+
+        <Button
+            android:id="@+id/coprimos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="botonClicado"
+            android:text="COPRIMOS" />
 
         <Button
             android:id="@+id/mcd"
