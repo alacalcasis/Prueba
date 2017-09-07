@@ -199,7 +199,6 @@ public class ModeloCalculadora {
                 mayor = menor;
                 menor = otro;
             }
-            ;
             resto = mayor % menor;
         }
         return menor;
