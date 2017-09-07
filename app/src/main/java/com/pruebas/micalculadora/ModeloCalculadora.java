@@ -117,7 +117,7 @@ public class ModeloCalculadora {
     public Integer mcd() {
         beta();
         oprAltPrio = '&';
-        return new Integer(y);
+        return Integer.valueOf(y);
     }
 
     /**
