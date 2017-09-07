@@ -38,25 +38,25 @@
             android:text="MCM" />
 
         <Button
-            android:id="@+id/primo"
+            android:id="@+id/mod"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="botonClicado"
-            android:text="PRIMO" />
+            android:text="MOD" />
 
         <Button
-            android:id="@+id/exponenciacion"
+            android:id="@+id/exp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="botonClicado"
             android:text="EXP" />
 
         <Button
-            android:id="@+id/coprimos"
+            android:id="@+id/sum"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="botonClicado"
-            android:text="COPRIMOS" />
+            android:text="SUM" />
 
         <Button
             android:id="@+id/mcd"

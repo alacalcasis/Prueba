@@ -28,13 +28,13 @@ public class MainActivity extends AppCompatActivity {
             case "MCM":
                 resultadoCalculadora = modeloCalculadora.mcd();
                 break;
-            case "PRIMO":
-                resultadoCalculadora = modeloCalculadora.mcd();
-                break;
-            case "COPRIMOS":
+            case "MOD":
                 resultadoCalculadora = modeloCalculadora.mcd();
                 break;
             case "EXP":
+                resultadoCalculadora = modeloCalculadora.mcd();
+                break;
+            case "SUM":
                 resultadoCalculadora = modeloCalculadora.mcd();
                 break;
             case "MCD":
