@@ -183,6 +183,10 @@ public class ModeloCalculadora {
         return rsl;
     }
 
+    private int calculeMOD() {
+        return x % y;
+    }
+
     private int calculeMCD() {
         int menor = minYZ();
         int mayor = maxYZ();
